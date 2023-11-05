@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+body {
+  background: #F1F1F1;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: "Anonymous Pro", sans-serif;
+  left: 142.52px;
+  width: 212.34px;
+}
+
+h1 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 48px;
+}
+
+.container-vse {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  border-radius: 15px;
+  display: inline-block;
+  width: 371px;
+  height: 400px;
+  margin: 15px;
+  background-color: #ffffff;
+  margin-left: 10px;
+}
+
+
+.container_image {
+  border-radius: 10%;
+
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 26px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 16px;
+  left: 115px;
+}
+
+img {
+  width: 370px;
+}
+
+.footer p,li {
+  margin-top: 18px;
+  margin-bottom: 21px;
+  color: #a1a5b4;
+}
+
+.footer {
+  display: flex;
+  white-space: nowrap;
+  width: 1440px;
+  height: 142px;
+  justify-content:flex-start;
+  background: #121723;
+
+}
+
+.footer .logo2 {
+  width: 299.653px;
+  height: 22.32px;
+}
+
+.widht-footer {
+  display: flex;
+  width: 1160px;
+}
+
+.cop {
+  font-family: "Anonymous Pro", sans-serif;
+  color: #A1A6B4;
+  top: 105px;
+  left: 617px;
+}
+
+.social {
+  text-decoration: none;
+  font-family: "anonymous pro";
+  color: #000000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.header {
+  background: #F1F1F1;
+  display: flex;
+  width: 1440px;
+  height: 110px;
+  justify-content: flex-end;
+  height: 110px;
+  padding: 32px 140px;
+}
+
+.line {
+  width: 1440px;
+}
+
+.text_cross{
+  padding-left: 15px;
+}
