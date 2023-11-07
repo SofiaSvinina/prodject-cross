@@ -115,17 +115,18 @@ img {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
+  line-height: normal;
   flex-direction: column;
 }
 
 .header {
-  background: #F1F1F1;
   display: flex;
-  width: 1440px;
-  height: 110px;
-  justify-content: flex-end;
-  height: 110px;
-  padding: 32px 140px;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--gray-100, #676B73);
+  background: var(--white-100, #FFF);
 }
 
 .line {
